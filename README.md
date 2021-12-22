@@ -30,7 +30,7 @@ This solution accelerator helps in clustering / segregating data into templates.
 2. Create 2 containers on storage account, one for the "input" data and one for the "results" (refer to this link on how to [create a container](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) in your storage account).
     1. Upload your input data to the "input" container created.
     2. Make sure that your "results" container you've created is still empty. 
-3. Update the following parameters in "**main.ipynb**" notebook, as well as in the "**AzureBlobStorageLib.ipynb**", under the "code" directory.
+3. Update the following parameters in "**main.ipynb**" notebook, under the "code" directory.
 
     Populate the below parameters, **src_container** and **dst_container**, with the names of the containers you created before in the previous step.
 
